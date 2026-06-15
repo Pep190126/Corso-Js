@@ -10,6 +10,10 @@ import Box from './components/Box/Box.jsx';
 import Contatore from './components/Contatore/Contatore.jsx';
 import Semaforo from './components/Semaforo/Semaforo.jsx';
 import Orologio from './components/Orologio/Orologio.jsx';
+import Changetitle from './components/Changetitle/Changetitle.jsx';
+import FocusOnFirstField from './components/Resettafocus/Resettafocus.jsx';
+import Contatoreuseref from './components/Contatoreuseref/Contatoreuseref.jsx';
+import Registrastudente from './components/Registrastudente/Registrastudente.jsx';
 
 function App() {
   return (
@@ -40,7 +44,11 @@ function App() {
       {/* <Box>
         <Semaforo></Semaforo>
       </Box> */}
-      <Orologio></Orologio>
+      {/* <Orologio></Orologio> */}
+      {/* <Changetitle /> */}
+      {/* <FocusOnFirstField /> */}
+      {/* <Contatoreuseref /> */}
+      <Registrastudente />
     </>
   );
 }
