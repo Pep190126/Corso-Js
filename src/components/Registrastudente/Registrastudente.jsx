@@ -19,7 +19,14 @@ export default function Registrastudente() {
   //Ogni studente sarà un oggetto {id:"", nome:""}
 
   const aggiungi = () => {
-    setStudenti([...studenti, {id: contatore.current, nome: nomeRef.current.value}]);
+  const nomePulito = nomeRef.current.value.trim();
+    
+    if (nomePulito === '') {
+      alert('Inserisci un nome valido');
+      return;
+    }
+
+    setStudenti([...studenti, {id: contatore.current, nome: nomePulito}]);
     contatore.current++;
     nomeRef.current.value = '';
     nomeRef.current.focus();
