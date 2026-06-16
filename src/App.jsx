@@ -14,6 +14,8 @@ import Changetitle from './components/Changetitle/Changetitle.jsx';
 import FocusOnFirstField from './components/Resettafocus/Resettafocus.jsx';
 import Contatoreuseref from './components/Contatoreuseref/Contatoreuseref.jsx';
 import Registrastudente from './components/Registrastudente/Registrastudente.jsx';
+import Formvalidation from './components/Formvalidation/Formvalidation.jsx';
+import Convertitoretemperatura from './components/Convertitoretemperatura/Convertitoretemperatura.jsx';
 
 function App() {
   return (
@@ -48,7 +50,9 @@ function App() {
       {/* <Changetitle /> */}
       {/* <FocusOnFirstField /> */}
       {/* <Contatoreuseref /> */}
-      <Registrastudente />
+      {/* <Registrastudente /> */}
+      {/* <Formvalidation /> */}
+      <Convertitoretemperatura />
     </>
   );
 }
